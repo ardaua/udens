@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap -->
+    <link rel="icon" href="images/favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
+
+    <title>Home page</title>
+</head>
+
+<body>
+<header>
+    <div class="center head-block-developer">
+        <p class="font-developer">Developer portal</p>
+    </div>
+
+    <div class="head-home">
+        <div class="head-menu">
+            <div class="cont">
+                <div class="row navigation">
+                    <div class="col-lg-2 col-md-3 col-sm-3 col-xs-5 nav-element reset-pad up-layer">
+                        <div class="nav-wrapper">
+                            <a href="home.html">
+                                <img class="img-logo" src="images/logo.svg" alt="">
+                                <span class="logo">
+                                    <p class="text-logo">oplao</p>
+                                    <p>Weather API</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div id='cssmenu' class="col-lg-10 col-md-9 col-sm-9 col-xs-7">
+                        <ul>
+                            <div class="col-lg-1 col-md-2 col-sm-1 pad-none">
+                                <li><a href="home.html">Home</a></li>
+                            </div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 upletter pad-none">
+                                <li><a href="api.html">api</a></li>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2 pad-none">
+                                <li><a href="interactive.html">Interactive</a></li>
+                            </div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 pad-none">
+                                <li><a href="docs.html">Docs</a></li>
+                            </div>
+                            <div class="col-lg-1 col-md-1 col-sm-1 pad-none">
+                                <li><a href="plans.html">Plans</a></li>
+                            </div>
+                            <div id="corect-pad" class="col-lg-4 col-md-1 col-sm-3">
+                                <li></li>
+                            </div>
+                            <div class="col-lg-1 col-md-2 col-sm-2">
+                                <li><a href="signup.html">Signup</a></li>
+                            </div>
+                            <div class="col-lg-1 col-md-2 col-sm-1 pad-none">
+                                <li><a href="login.html">Login</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="foo">
+            <div class="cont">
+            <div class="head-text center">
+                <h1>Affordable and fully managed weather API which:</h1>
+
+                <div class="row row-block-xs visible-xs">
+                    <div class="row row-icon">
+                        <div class="col-xs-4">
+                            <img src="images/free.svg" alt="">
+                        </div>
+                        <div class="col-xs-4">
+                            <img src="images/fast.svg" alt="">
+                        </div>
+                        <div class="col-xs-4">
+                            <img src="images/simple.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="row row-icon-text">
+                        <div class="col-xs-4">
+                            <p>Free</p>
+                        </div>
+                        <div class="col-xs-4">
+                            <p>Fast</p>
+                        </div>
+                        <div class="col-xs-4">
+                            <p>Simple</p>
+                        </div>
+                    </div>
+
+                    <div class="row row-icon  row-icon-xs">
+                        <div class="col-xs-4">
+                            <img src="images/scalable.svg" alt="">
+                        </div>
+                        <div class="col-xs-4">
+                            <img src="images/json_format.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="row row-icon-text row-icon-text-xs">
+                        <div class="col-xs-4">
+                            <p>Scalable</p>
+                        </div>
+                        <div class="col-xs-4">
+                            <p>JSON format</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row row-block hidden-xs">
+                    <div class="row row-icon">
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <img src="images/free.svg" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <img src="images/fast.svg" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <img src="images/simple.svg" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <img src="images/scalable.svg" alt="">
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <img src="images/json_format.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="row row-icon-text hidden-xs">
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <p>Free</p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <p>Fast</p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <p>Simple</p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-2">
+                            <p>Scalable</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3">
+                            <p>JSON format</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-block-btn">
+
+                    <button class="btn hidden-xs">Pricing</button>
+                    <button class="btn hidden-xs">Signup</button>
+
+                    <div class="col-xs-12 marg-btn visible-xs">
+                        <button class="btn">Pricing</button>
+                    </div>
+                    <div class="col-xs-12 visible-xs">
+                        <button class="btn">Signup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    </div>
+</header>
+
+<div class="featur-block">
+    <div class="cont">
+        <h2 class="center">Features</h2>
+        <div class="row row-block">
+            <div class="row row-one">
+                <div class="col-md-6 col-sm-6">
+                    <div class="col-md-3 img-block">
+                        <img src="images/real_time_weather_icon.svg" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <h3>Real-time Weather API</h3>
+                        <p>Real-time or current JSON weather API provides access to near real-time weather information
+                            for millions of locations worldwide.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="col-md-3 img-block">
+                        <img src="images/10_day_weather_icon.svg" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <h3>10 Day Weather API</h3>
+                        <p>Hour by hour detailed weather forecast for millions of cities and towns around the world in
+                            JSON format.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-two">
+                <div class="col-md-6 col-sm-6">
+                    <div class="col-md-3 img-block">
+                        <img src="images/extras.svg" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <h3>Extras</h3>
+                        <p>STime zone, Astronomy and Geo API</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="col-md-3 img-block">
+                        <img src="images/json_icon.svg" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <h3>JSON</h3>
+                        <p>All data in lightweight, simple and easy JSON format.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-three">
+                <div class="col-md-6 col-sm-6">
+                    <div class="col-md-3 img-block">
+                        <img src="images/start_free.svg" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <h3>Start Free, Upgrade Later</h3>
+                        <p>Signup for free weather API and then upgrade at anytime. We charge ONLY for API calls per
+                            month.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="col-md-3 img-block">
+                        <img src="images/99_uptime.svg" alt="">
+                    </div>
+                    <div class="col-md-9">
+                        <h3>99% uptime</h3>
+                        <p>We manage the infrastructure, hardware and network. While you simply enjoy the data and leave
+                            rest on us.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="pricing-block">
+    <div class="cont">
+        <h2 class="center">Pricing</h2>
+        <div class="row row-block">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide col-md-2 proposition-block proposition-block1">
+                        <span>Free</span><br><br>
+                        <span class="price">$0</span>
+                        <p>Per Month</p><br><br>
+                        <span>5.000</span>
+                        <p>API Calls Per Month</p><br><br>
+                        <button class="butt1">Get started</button>
+                    </div>
+                    <div class="swiper-slide col-md-2 proposition-block proposition-block2">
+                        <span>Starter</span><br><br>
+                        <span class="price">$3</span>
+                        <p>Per Month</p><br><br>
+                        <span>15.000</span>
+                        <p>API Calls Per Month</p><br><br>
+                        <button class="butt2">Get started</button>
+                    </div>
+                    <div class="swiper-slide col-md-2 proposition-block proposition-block3">
+                        <span>Advanced</span><br><br>
+                        <span class="price">$5</span>
+                        <p>Per Month</p><br><br>
+                        <span>30.000</span>
+                        <p>API Calls Per Month</p><br><br>
+                        <button class="butt3">Get started</button>
+                    </div>
+                    <div class="swiper-slide col-md-2 proposition-block proposition-block4">
+                        <div class="popular">Popular</div>
+                        <span>Developer</span><br><br>
+                        <span class="price">$35</span>
+                        <p>Per Month</p><br><br>
+                        <span>200.000</span>
+                        <p>API Calls Per Month</p><br><br>
+                        <button class="butt4">Get started</button>
+                    </div>
+                    <div class="swiper-slide col-md-2 proposition-block proposition-block5">
+                        <span>Developer PRO</span><br><br>
+                        <span class="price">$120</span>
+                        <p>Per Month</p><br><br>
+                        <span>500.000</span>
+                        <p>API Calls Per Month + Premium support 24*7</p><br>
+                        <button class="butt5">Get started</button>
+                    </div>
+                </div>
+                <!-- Add Scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="library-block">
+    <div class="cont row">
+        <h2 class="center visible-xs library-title-xs">API Libraries</h2>
+        <div class="row row1 visible-xs">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a href="#">
+                        <img src="images/c.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="#">
+                        <img src="images/perl.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row library-row-text">
+                <div class="col-xs-6">
+                    <p>C# library</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>PERL library</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <a href="#">
+                        <img src="images/php.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="#">
+                        <img src="images/nodejs.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row library-row-text">
+                <div class="col-xs-6">
+                    <p>PHP library</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>NodeJS library</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <a href="#">
+                        <img src="images/ruby.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-6">
+                    <a href="#">
+                        <img src="images/java.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row library-row-text">
+                <div class="col-xs-6">
+                    <p>Ruby library</p>
+                </div>
+                <div class="col-xs-6">
+                    <p>Java library</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row hidden-xs">
+            <div class="col-md-12 col-sm-12 col-lg-12">
+                <a href="#">
+                    <img src="images/perl.svg" alt="">
+                    <p>PERL library</p>
+                </a>
+            </div>
+        </div>
+        <div class="row hidden-xs row2">
+            <div class="col-md-6 col-sm-6">
+                <a href="#">
+                    <img src="images/c.svg" alt="">
+                    <p>C# library</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <a href="#">
+                    <img src="images/php.svg" alt="">
+                    <p>PHP library</p>
+                </a>
+            </div>
+        </div>
+        <h2 class="center hidden-xs">API Libraries</h2>
+        <div class="row hidden-xs row3">
+            <div class="col-md-6 col-sm-6">
+                <a href="#">
+                    <img src="images/nodejs.svg" alt="">
+                    <p>NodeJS library</p>
+                </a>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <a href="#">
+                    <img src="images/ruby.svg" alt="">
+                    <p>Ruby library</p>
+                </a>
+            </div>
+        </div>
+        <div class="row hidden-xs row4">
+            <div class="col-md-12 col-sm-12 col-lg-12">
+                <a href="#">
+                    <img src="images/java.svg" alt="">
+                    <p>Java library</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="cont center">
+        <div class="row">
+            <div class="col-sm-1 col-md-1 pad-none"></div>
+            <div class="col-sm-1 col-md-1 corect-pad pad-none"><a href="home.html">Home</a></div>
+            <div class="col-sm-1 col-md-1 upletter corect-pad pad-none"><a href="api.html">api</a></div>
+            <div class="col-sm-2 col-md-2 corect-pad pad-none"><a href="interactive.html">Interactive</a></div>
+            <div class="col-sm-1 col-md-1 corect-pad pad-none"><a href="docs.html">Docs</a></div>
+            <div class="col-sm-1 col-md-1 corect-pad pad-none"><a href="plans.html">Plans</a></div>
+            <div class="col-sm-2 col-md-2 corect-pad pad-none"><a href="signup.html">Signup</a></div>
+            <div class="col-sm-1 col-md-1 corect-pad pad-none"><a href="login.html">Login</a></div>
+            <div class="col-md-2 col-sm-2"></div>
+        </div>
+        <div class="center copyright">
+            <p>2016 Oplao. All right reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
