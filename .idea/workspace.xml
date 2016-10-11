@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="38a119b1-d7ba-41aa-b741-f29a6fbe2826" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
     </list>
     <ignored path="oplao-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -224,7 +222,7 @@
       <workItem from="1475650412737" duration="3188000" />
       <workItem from="1475659770867" duration="10778000" />
       <workItem from="1475736823854" duration="5751000" />
-      <workItem from="1476170124484" duration="3733000" />
+      <workItem from="1476170124484" duration="3805000" />
     </task>
     <task id="LOCAL-00001" summary="-first com">
       <created>1475064149184</created>
@@ -275,11 +273,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475678639415</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="-новая идея дизайна, упрощенный">
+      <created>1476182651021</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1476182651021</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49150000" />
+    <option name="totallyTimeSpent" value="49222000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="0" />
