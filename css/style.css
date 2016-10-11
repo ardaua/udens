@@ -76,6 +76,38 @@ header{
     height: auto;
 }
 #up {
-    position: fixed;
-    right: 0;
+}
+#menu {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+#menu ul{
+    margin: 0;
+}
+#menu li
+{ display: inline; }
+#menu a {
+    color: #868585;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    text-transform: uppercase;
+}
+#menu a:hover {
+    border: 20px;
+    background-color:  #ffaa00;
+}
+#menu #red{
+    color: darkred;
+}
+.portfol-block img{
+    width: 400px;
+    height: auto;
+}
+.order-user img{
+    width: 100px;
+    height: auto;
 }
