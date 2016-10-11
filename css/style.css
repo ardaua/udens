@@ -1,11 +1,15 @@
-html {
-    overflow-x: hidden;
+/*html {*/
+    /*overflow-x: hidden;*/
+/*}*/
+* {
+    margin: 0;
+    padding: 0;
 }
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #868585;
-    background: #fdfcfb;
+    background: #ffffff;
     font-weight: normal;
 }
 img{
@@ -66,4 +70,12 @@ header{
 .icon-privil img{
     width: 100px;
     height: auto;
+}
+.icon-setup img{
+    width: 100px;
+    height: auto;
+}
+#up {
+    position: fixed;
+    right: 0;
 }

@@ -11,6 +11,7 @@
     <link rel="icon" href="images/favicon.ico">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -21,6 +22,7 @@
 </head>
 
 <body>
+<p><a id="top"></a></p>
 <header>
     <div class="panel-info marg">
         <div class="col-lg-4">
@@ -37,6 +39,15 @@
         </div>
     </div>
 
+    <nav id="menu">
+        <ul>
+            <li><a href="#ex1">Link #1</a></li>
+            <li><a href="#ex2">Link #2</a></li>
+            <li><a href="#ex3">Link #3</a></li>
+            <li><a href="#ex4">Link #4</a></li>
+        </ul>
+    </nav>
+
     <div class="row marg">
         <div class="slider">
             <img src="img/elektricheskoe-avtonomnoe-otoplenie.jpg" alt="slid1">
@@ -44,7 +55,7 @@
     </div>
 </header>
 
-<div class=" privilege-block cont">
+<div class="privilege-block cont">
     <div class="row row-privil-one">
         <div class="col-md-4">
             <span class="icon-privil"><img src="img/give-money1.svg" alt="money"></span>
@@ -81,20 +92,20 @@
     </div>
 </div>
 
-<div class="portfol-block">
+<div id="ex1" class="portfol-block">
     <div class="row">
         <h2>Подбери тепло к своему интерьеру</h2>
-        <img src="img/" alt="portf_1">
-        <img src="img/" alt="portf_2">
-        <img src="img/" alt="portf_3">
-        <img src="img/" alt="portf_4">
-        <img src="img/" alt="portf_5">
-        <img src="img/" alt="portf_6">
-        <img src="img/" alt="portf_7">
-        <img src="img/" alt="portf_8">
-        <img src="img/" alt="portf_9">
-        <img src="img/" alt="portf_10">
-        <img src="img/" alt="portf_11">
+        <img src="img" alt="portf_1">
+        <img src="img" alt="portf_2">
+        <img src="img" alt="portf_3">
+        <img src="img" alt="portf_4">
+        <img src="img" alt="portf_5">
+        <img src="img" alt="portf_6">
+        <img src="img" alt="portf_7">
+        <img src="img" alt="portf_8">
+        <img src="img" alt="portf_9">
+        <img src="img" alt="portf_10">
+        <img src="img" alt="portf_11">
     </div>
 </div>
 
@@ -102,7 +113,9 @@
     <img src="img/skinali_volny_linii_61203.jpg" alt="волна">
 </div>
 
-<div class="goods-block">
+<p id="up"><a href="#top">Наверх</a></p>
+
+<div id="ex2" class="goods-block">
     <h2>
         Дизайнерские панели
     </h2>
@@ -196,11 +209,7 @@
     </div>
 </div>
 
-<!--<div class="hidden-xs img-wave-block">-->
-    <!--<img src="img/skinali_volny_linii_61203.jpg" alt="волна">-->
-<!--</div>-->
-
-<div class="info-block">
+<div id="ex3" class="info-block">
     <div class="row">
         <h2>Такой технологии Вы еще не встречали!</h2>
         <div class="col-lg-12">
@@ -219,9 +228,41 @@
     </div>
 </div>
 
-<div class="setup-block">
+<div id="ex4" class="setup-block">
     <div class="row">
-        <div class="col-lg-12">.col-sm-5 .col-md-6</div>
+        <div class="col-sm-2">
+            <span class="icon-setup"><img src="img/customer-service.svg" alt="order"></span>
+            <p class="text-setup">
+                Заказ товара
+            </p>
+        </div>
+        <div class="col-sm-1">
+            <span class="icon-setup"><img src="img/right-arrow.svg" alt="arrow"></span>
+        </div>
+        <div class="col-sm-2">
+            <span class="icon-setup"><img src="img/van.svg" alt="car"></span>
+            <p class="text-setup">
+                Доставка на дом
+            </p>
+        </div>
+        <div class="col-sm-1">
+            <span class="icon-setup"><img src="img/right-arrow.svg" alt="arrow"></span>
+        </div>
+        <div class="col-sm-2">
+            <span class="icon-setup"><img src="img/technician-with-glasses.svg" alt="service"></span>
+            <p class="text-setup">
+                Профессионал установит панель
+            </p>
+        </div>
+        <div class="col-sm-1">
+            <span class="icon-setup"><img src="img/right-arrow.svg" alt="arrow"></span>
+        </div>
+        <div class="col-sm-2">
+            <span class="icon-setup"><img src="img/hot-coffee-.svg" alt="comfort"></span>
+            <p class="text-setup">
+                У Вас дома красота тепло комфорт
+            </p>
+        </div>
     </div>
 </div>
 
@@ -252,6 +293,26 @@
      <img src="img/map-adress.png" alt="map">
  </div>
 </footer>
+
+<script>
+    $(document).ready(function(){
+        $("#up").on("click","a", function (event) {
+            event.preventDefault();
+            var id = $(this).attr('href'),
+                    top = $(id).offset().top;
+            $('body,html').animate({scrollTop: top}, 1500);
+        });
+    });
+    $(document).ready(function(){
+        $("#menu").on("click","a", function (event) {
+            event.preventDefault();
+            var id = $(this).attr('href'),
+                    top = $(id).offset().top;
+            //анимируем переход на расстояние - top за 1500 мс
+            $('body,html').animate({scrollTop: top}, 1500);
+        });
+    });
+</script>
 
 </body>
 </html>
