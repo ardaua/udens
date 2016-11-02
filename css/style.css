@@ -7,10 +7,31 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     color: #868585;
     background: #ffffff;
     font-weight: normal;
+}
+h1{
+    font-weight: 100;
+    line-height: 1.1;
+    font-family: Mistral, Cursive;
+    font-size: 50px;
+    color: orange;
+}
+h2{
+    font-weight: 100;
+    line-height: 1.1;
+    font-family: Mistral, Cursive;
+    font-size: 40px;
+    color: orange;
+}
+h3{
+    font-family: inherit;
+    font-weight: 100;
+    line-height: 1.1;
+    font-size: 25px;
+    color: orange;
 }
 img{
     max-width: 100%;
@@ -26,8 +47,11 @@ header{
 .marg {
     margin: 0;
 }
+.h2-pad {
+    padding-bottom: 7%;
+}
 .panel-info {
-    min-height: 50px;
+    min-height: 130px;
     text-align: center;
 }
 .row-privil-two {
@@ -45,9 +69,7 @@ header{
 }
 
 .privilege-block {
-    /*width: 100%;*/
-/*    height: 500px;*/
-    /*background-color: white;*/
+    margin: 5% 0px;
   }
 
 .circle {
@@ -93,12 +115,12 @@ header{
     padding: 5px 10px;
     text-decoration: none;
     display: inline-block;
-    width: 100px;
+    /*width: 100px;*/
     text-transform: uppercase;
 }
-#menu a:hover {
+#menu a:hover, #menu #red:hover {
     border: 20px;
-    background-color:  #ffaa00;
+    color: orange;
 }
 #menu #red{
     color: darkred;
@@ -110,4 +132,54 @@ header{
 .order-user img{
     width: 100px;
     height: auto;
+}
+/*.tit {*/
+    /*font-family: Mistral, Cursive;*/
+    /*font-size: 50px;*/
+    /*color: orange;*/
+/*}*/
+.row-privil-one, .row-privil-two {
+    text-transform: uppercase;
+}
+.row-privil-one p, .row-privil-two p {
+    padding: 5% 15% 0;
+}
+#text-privil {
+    margin-right: 13px;
+}
+.portfol-block {
+    margin: 10% 0 7%;
+}
+.goods-block  {
+    margin: 7% 0;
+}
+#ta{
+    height:400px;
+    transition:all 1s;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
+    -o-transition:all 1s;
+}
+#ta2{
+    height:1300px;
+    transition:all 1s;
+    -moz-transition:all 1s;
+    -webkit-transition:all 1s;
+    -o-transition:all 1s;
+}
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover, .btn-primary {
+    background-color: orange;
+    border-color: orange;
+}
+.jumbotron p {
+    margin-top: 20px;
+}
+.contact-block p {
+    font-size: 14px;
+}
+.contact-block h3 {
+    padding-bottom: 10px;
+}
+.row-goods {
+    margin-top: 5%;
 }
