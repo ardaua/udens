@@ -12,17 +12,33 @@ body{
     background: #ffffff;
     font-weight: normal;
 }
+/*@font-face {*/
+    /*font-family: Classic1;*/
+    /*src: url("../fonts/Heather Script Two.ttf");*/
+/*}*/
+@font-face {
+    font-family: Classic2;
+    src: url("../fonts/Cassandra.ttf");
+}
+/*@font-face {*/
+    /*font-family: Classic3;*/
+    /*src: url("../fonts/Majestic X.ttf");*/
+/*}*/
+/*@font-face {*/
+    /*font-family: Classic4;*/
+    /*src: url("../fonts/Romantica script.ttf");*/
+/*}*/
 h1{
     font-weight: 100;
     line-height: 1.1;
-    font-family: Mistral, Cursive;
+    font-family: Classic2;
     font-size: 50px;
     color: orange;
 }
 h2{
     font-weight: 100;
     line-height: 1.1;
-    font-family: Mistral, Cursive;
+    font-family: Classic2;
     font-size: 40px;
     color: orange;
 }
@@ -150,8 +166,11 @@ header{
 .portfol-block {
     margin: 10% 0 7%;
 }
-.goods-block  {
+.goods-block, .info-block, .setup-block, .order-block, .about-block, .reviews-block, .contact-block  {
     margin: 7% 0;
+}
+.contact-block {
+    margin-bottom: 10%;
 }
 #ta{
     height:400px;
@@ -182,4 +201,19 @@ header{
 }
 .row-goods {
     margin-top: 5%;
+}
+.order-btn {
+    margin-top: 3%;
+    background-color: orange;
+    color: white;
+    text-transform: uppercase;
+}
+.order-btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #0031de;
+}
+.user-name {
+    font-weight: 700;
+    font-size: 17px;
 }
