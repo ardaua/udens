@@ -239,3 +239,7 @@ header{
     text-transform: uppercase;
     line-height: 2;
 }
+
+.test {
+    background-color: rgba(173, 173, 173, 0.52);
+}
