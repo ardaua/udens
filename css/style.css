@@ -154,7 +154,7 @@ header{
     /*font-size: 50px;*/
     /*color: orange;*/
 /*}*/
-.row-privil-one, .row-privil-two {
+.row-privil-one, .row-privil-two, .text-setup {
     text-transform: uppercase;
 }
 .row-privil-one p, .row-privil-two p {
@@ -216,4 +216,14 @@ header{
 .user-name {
     font-weight: 700;
     font-size: 17px;
+}
+.icon-setup2 img{
+    padding-top: 45px;
+}
+.text-setup {
+    font-size: 14px;
+}
+.cont-setup {
+    padding: 0 10% 0 15%;
+    text-align: center;
 }
