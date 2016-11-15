@@ -12,6 +12,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://e-timer.ru/js/etimer.js"></script>
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -34,10 +35,9 @@
         <div class="col-lg-4">
             <p>+3809950423</p>
         </div>
-        <div class="col-lg-12 tit">
-            <h1>Панели для обогрева. Тепло и красота в Днепре.</h1>
-        </div>
     </div>
+
+    <hr>
 
     <nav id="menu">
         <ul>
@@ -51,6 +51,11 @@
             <li><a href="#ex8">Контакты</a></li>
         </ul>
     </nav>
+
+
+    <div class="row tit">
+        <h1>Панели для обогрева. Тепло и красота в Днепре.</h1>
+    </div>
 
     <div class="row marg">
         <div class="slider">
@@ -438,8 +443,11 @@
     <div class="col-md-6">
     <!--<p>Заказать / Задать вопрос</p>-->
     <!--<p>Мы перезвоним!</p>-->
-        <p>До холодов осталось 100 дней</p>
+        <div class="eTimer"></div>
+        <p>А это значит, что холода приблежаються!</p>
+        <p>Обустрой свой дом уютом к праздникам.</p>
     </div>
+
 </div>
 
 <div class="hidden-xs img-wave-block">
@@ -579,6 +587,39 @@
             $(this).text(H == max ? 'Скрыть' : 'Больше товара');
             return false
         })
+    });
+</script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery(".eTimer").eTimer({
+            etType: 0,
+            etDate: "31.12.2016.0.0",
+            etTitleText: "До нового года осталось:",
+            etTitleSize: 40,
+            etShowSign: 1,
+            etSep: ":",
+            etFontFamily: "Arial",
+            etTextColor: "#a3a3a3",
+            etPaddingTB: 20,
+            etPaddingLR: 20,
+            etBackground: "rgba(73, 0, 24, 0.33)", //переделать
+            etBorderSize: 0,
+            etBorderRadius: 2,
+            etBorderColor: "white",//переделать
+            etShadow: " 0px 0px 10px 0px #333333",
+            etLastUnit: 1,
+            etNumberFontFamily: "Arial Black",//переделать
+            etNumberSize: 70,
+            etNumberColor: "white",
+            etNumberPaddingTB: 0,
+            etNumberPaddingLR: 2,
+            etNumberBackground: "#11abb0",//переделать
+            etNumberBorderSize: 0,
+            etNumberBorderRadius: 5,
+            etNumberBorderColor: "white",
+            etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
+        });
     });
 </script>
 
