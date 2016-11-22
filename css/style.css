@@ -32,14 +32,14 @@ h1{
     font-weight: 100;
     line-height: 1.1;
     font-family: Classic2;
-    font-size: 50px;
+    font-size: 65px;
     color: orange;
 }
 h2{
     font-weight: 100;
     line-height: 1.1;
     font-family: Classic2;
-    font-size: 40px;
+    font-size: 50px;
     color: orange;
 }
 h3{
@@ -54,7 +54,7 @@ img{
     height: auto;
 }
 header{
-    margin: 50px 0 80px;
+    margin: 10px 0 80px;
 }
 .cont {
     padding: 0 20% 0 20%;
@@ -67,8 +67,14 @@ header{
     padding-bottom: 7%;
 }
 .panel-info {
-    min-height: 130px;
+    min-height: 20px;
     text-align: center;
+}
+.panel-info p {
+    margin: 0;
+}
+.hr-head {
+    margin-top: 10px;
 }
 .row-privil-two {
     padding: 0 10%;
@@ -117,7 +123,7 @@ header{
 }
 #menu {
     margin: 0 auto;
-    padding: 0;
+    padding: 20px 0 0;
     list-style-type: none;
     text-align: center;
 }
@@ -149,11 +155,10 @@ header{
     width: 100px;
     height: auto;
 }
-/*.tit {*/
-    /*font-family: Mistral, Cursive;*/
-    /*font-size: 50px;*/
-    /*color: orange;*/
-/*}*/
+.tit {
+    margin: 0;
+    text-align: center;
+}
 .row-privil-one, .row-privil-two, .text-setup {
     text-transform: uppercase;
 }
@@ -191,7 +196,22 @@ header{
     border-color: orange;
 }
 .jumbotron p {
-    margin-top: 20px;
+    margin: 20px 0 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.jumbotron span {
+    color: orange;
+    font-family: classic2;
+    font-size: 25px;
+}
+.row-goods button {
+    margin-top: 10px;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none;
+    background-color: #dff0d8;
 }
 .contact-block p {
     font-size: 14px;
@@ -201,6 +221,11 @@ header{
 }
 .row-goods {
     margin-top: 5%;
+}
+.row-goods img {
+    max-width: 90%;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 .order-btn {
     margin-top: 3%;
