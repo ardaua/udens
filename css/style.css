@@ -175,7 +175,8 @@ header{
     margin: 7% 0;
 }
 .contact-block {
-    margin-bottom: 10%;
+    margin: 5% 0 3%;
+    min-height: 220px;
 }
 #ta{
     height:400px;
@@ -212,6 +213,10 @@ header{
     font-size: 14px;
     border: none;
     background-color: #dff0d8;
+    /*background-color: rgba(217, 237, 247, 0.4);*/
+}
+.row-goods button:hover {
+    background-color: #fff0fc;
 }
 .contact-block p {
     font-size: 14px;
