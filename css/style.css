@@ -220,6 +220,8 @@ header{
 }
 .contact-block p {
     font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 1px;
 }
 .contact-block h3 {
     padding-bottom: 10px;
