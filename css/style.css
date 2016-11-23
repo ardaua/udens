@@ -249,8 +249,12 @@ header{
     font-weight: 700;
     font-size: 17px;
 }
-.icon-setup2 img{
+.icon-setup-arrow-r img{
     padding-top: 45px;
+}
+.icon-setup-arrow-d img{
+    padding: 15px 0;
+    width: 65px;
 }
 .text-setup {
     font-size: 14px;
