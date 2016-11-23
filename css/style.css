@@ -334,10 +334,10 @@ input {outline:none;}
     /*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*/
 }
 
-::placeholder {
-    color: #868585;
-    /*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*/
-}
+/*::placeholder {*/
+    /*color: #868585;*/
+    /*!*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*!*/
+/*}*/
 
 /*Стили для кнопки*/
 .applicationButton {
