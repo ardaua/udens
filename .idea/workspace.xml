@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="38a119b1-d7ba-41aa-b741-f29a6fbe2826" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.php" afterPath="$PROJECT_DIR$/application.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forma/application.php" afterPath="$PROJECT_DIR$/forma/application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forma/css/reset.css" afterPath="$PROJECT_DIR$/forma/css/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forma/css/style.css" afterPath="$PROJECT_DIR$/forma/css/style.css" />
     </list>
     <ignored path="oplao-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,17 +28,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="338" column="0" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="47" />
+            <state relative-caret-position="461">
+              <caret line="287" column="14" selection-start-line="287" selection-start-column="14" selection-end-line="287" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="401">
@@ -87,8 +90,8 @@
         <option value="$PROJECT_DIR$/js/home.html" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/home1.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -600,7 +603,7 @@
       <workItem from="1479719980738" duration="256000" />
       <workItem from="1479720242219" duration="62000" />
       <workItem from="1479806793121" duration="7482000" />
-      <workItem from="1479894164906" duration="9577000" />
+      <workItem from="1479894164906" duration="10122000" />
     </task>
     <task id="LOCAL-00001" summary="-first com">
       <created>1475064149184</created>
@@ -756,11 +759,25 @@
       <option name="project" value="LOCAL" />
       <updated>1479900554588</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Оформление таймера. Оформление формы заказа, js e-mail.">
+      <created>1479918008516</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1479918008516</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Оформление таймера. Оформление формы заказа, js e-mail.">
+      <created>1479918062964</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1479918062964</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91828000" />
+    <option name="totallyTimeSpent" value="92373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1606" height="877" extended-state="6" />
@@ -822,7 +839,8 @@
     <MESSAGE value="каталог названия цены и кнопка, пропорциональный футер" />
     <MESSAGE value="футер шрифт и заголовки" />
     <MESSAGE value="размер стрелочек Установка" />
-    <option name="LAST_COMMIT_MESSAGE" value="размер стрелочек Установка" />
+    <MESSAGE value="Оформление таймера. Оформление формы заказа, js e-mail." />
+    <option name="LAST_COMMIT_MESSAGE" value="Оформление таймера. Оформление формы заказа, js e-mail." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1453,14 +1471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="338" column="0" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -1483,6 +1493,14 @@
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="287" column="14" selection-start-line="287" selection-start-column="14" selection-end-line="287" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
