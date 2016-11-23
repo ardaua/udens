@@ -7,12 +7,14 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
+    <!--<meta http-equiv="Refresh" content="4; url=http://teplo-dnepr.com.ua">-->
     <!-- Bootstrap -->
     <link rel="icon" href="images/favicon.ico">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="http://e-timer.ru/js/etimer.js"></script>
+
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -428,25 +430,12 @@
     <h2 class="h2-pad">Как заказать?</h2>
     <div class="col-md-6">
         <div class="form-decoretion">
-            <form class="form-horizontal">
-            <div class="control-group">
-                <label class="control-label" for="inputName">Введите имя</label>
-                <div class="controls">
-                    <input type="text" id="inputName" placeholder="имя">
-                </div>
-            </div>
-            <div class="control-group">
-                <label class="control-label" for="inputTel">Введите телефон</label>
-                <div class="controls">
-                    <input type="tel" id="inputTel" placeholder="телефон">
-                </div>
-            </div>
-            <div class="control-group">
-                <div class="controls">
-                    <button type="submit" class="btn order-btn">Заказать</button>
-                </div>
-            </div>
-        </form>
+            <form id="application" action=" application.php" method="POST" name=" application ">
+                <input name="name" id="zayavkaName" maxlength="20" placeholder="Введите ваше имя" required />
+                <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
+                <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
+                <button class="applicationButton" type="submit" form="application">Заказать</button>
+            </form>
         </div>
     </div>
     <div class="col-md-6">
@@ -643,22 +632,22 @@
             etTextColor: "#a3a3a3",
             etPaddingTB: 20,
             etPaddingLR: 20,
-            etBackground: "rgba(73, 0, 24, 0.33)", //переделать
+            etBackground: '#fff',
             etBorderSize: 0,
-            etBorderRadius: 2,
-            etBorderColor: "white",//переделать
-            etShadow: " 0px 0px 10px 0px #333333",
+//            etBorderRadius: 2,
+//            etBorderColor: "white",//переделать
+//            etShadow: " 0px 0px 10px 0px #333333",
             etLastUnit: 1,
             etNumberFontFamily: "Arial Black",//переделать
             etNumberSize: 70,
-            etNumberColor: "white",
+            etNumberColor: "green",
             etNumberPaddingTB: 0,
-            etNumberPaddingLR: 2,
-            etNumberBackground: "#11abb0",//переделать
-            etNumberBorderSize: 0,
-            etNumberBorderRadius: 5,
-            etNumberBorderColor: "white",
-            etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
+//            etNumberPaddingLR: 2,
+//            etNumberBackground: "#11abb0",//переделать
+//            etNumberBorderSize: 0,
+//            etNumberBorderRadius: 5,
+//            etNumberBorderColor: "white",
+//            etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
         });
     });
 </script>

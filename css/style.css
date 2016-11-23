@@ -1,6 +1,3 @@
-/*html {*/
-    /*overflow-x: hidden;*/
-/*}*/
 * {
     margin: 0;
     padding: 0;
@@ -12,22 +9,10 @@ body{
     background: #ffffff;
     font-weight: normal;
 }
-/*@font-face {*/
-    /*font-family: Classic1;*/
-    /*src: url("../fonts/Heather Script Two.ttf");*/
-/*}*/
 @font-face {
     font-family: Classic2;
     src: url("../fonts/Cassandra.ttf");
 }
-/*@font-face {*/
-    /*font-family: Classic3;*/
-    /*src: url("../fonts/Majestic X.ttf");*/
-/*}*/
-/*@font-face {*/
-    /*font-family: Classic4;*/
-    /*src: url("../fonts/Romantica script.ttf");*/
-/*}*/
 h1{
     font-weight: 100;
     line-height: 1.1;
@@ -174,6 +159,9 @@ header{
 .goods-block, .info-block, .setup-block, .order-block, .about-block, .reviews-block, .contact-block  {
     margin: 7% 0;
 }
+.order-block {
+    min-height: 530px;
+}
 .contact-block {
     margin: 5% 0 3%;
     min-height: 220px;
@@ -234,17 +222,6 @@ header{
     font-size: 18px;
     text-transform: uppercase;
 }
-.order-btn {
-    margin-top: 3%;
-    background-color: orange;
-    color: white;
-    text-transform: uppercase;
-}
-.order-btn:hover {
-    cursor: pointer;
-    color: white;
-    background-color: #0031de;
-}
 .user-name {
     font-weight: 700;
     font-size: 17px;
@@ -263,19 +240,121 @@ header{
     padding: 0 10% 0 15%;
     text-align: center;
 }
-.form-decoretion {
-    background-color: rgb(128, 0, 0);
-    padding: 70px 0;
-    width: 300px;
-    margin: auto;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: inherit;
-    font-weight: 100;
-    text-transform: uppercase;
-    line-height: 2;
-}
+/*.form-decoretion {*/
+    /*background-color: rgb(128, 0, 0);*/
+    /*padding: 70px 0;*/
+    /*width: 300px;*/
+    /*margin: auto;*/
+    /*border-radius: 5px;*/
+    /*font-size: 20px;*/
+    /*font-family: inherit;*/
+    /*font-weight: 100;*/
+    /*text-transform: uppercase;*/
+    /*line-height: 2;*/
+/*}*/
 
 .test {
     background-color: rgba(173, 173, 173, 0.52);
+}
+
+
+
+/*Контейнер с фоном и текстом*/
+.main {
+    width: 640px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+    background: #484d53;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    text-align: center;
+}
+
+
+.main h3 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.main p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+}
+
+/* Стили формы */
+#application {
+    width: 435px;
+    margin: 0 auto;
+}
+
+/*Стили полей для ввода*/
+#applicationName, #zayavkaName, #applicationEmail, #applicationTelephone {
+    width: 100%;
+    height: 73px;
+    background: none;
+    margin-top: 25px;
+    border: 1px solid #ffa200;
+    border-radius: 40px;
+    text-align: center;
+    color: #ffa200;
+    font-size: 24px;
+}
+
+/*Стили полей при клике по ним*/
+#applicationName:focus, #zayavkaName:focus,#applicationEmail:focus, #applicationTelephone:focus {
+    border: 1px solid #30ad64;
+}
+
+input {outline:none;}
+
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #868585;
+    /*font-family: 'PT Sans', sans-serif;*/
+    /*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*/
+}
+
+::-moz-placeholder  {
+    color: #868585;
+    /*font-family: 'PT Sans', sans-serif;*/
+    /*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*/
+}  /* Firefox 19+ */
+
+:-moz-placeholder {
+    color: #868585;
+    /*font-family: 'PT Sans', sans-serif;*/
+    /*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*/
+}  /* Firefox 18- */
+
+:-ms-input-placeholder {
+    color: #868585;
+    /*font-family: 'PT Sans', sans-serif;*/
+    /*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*/
+}
+
+::placeholder {
+    color: #868585;
+    /*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*/
+}
+
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #30ad64;
+    border: none;
+    width: 100%;
+    height: 73px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+    /*    transition: .6s;*/
+}
+.applicationButton:hover {
+    background: #d68c18;
+    /*    transition: .6s;*/
 }
