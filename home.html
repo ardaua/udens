@@ -12,8 +12,6 @@
     <link rel="icon" href="images/favicon.ico">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="http://e-timer.ru/js/etimer.js"></script>
 
 
     <!--[if lt IE 9]>
@@ -133,7 +131,17 @@
 <div id="ex2" class="goods-block cont jumbotron">
     <h2 class="h2-pad">Дизайнерские панели</h2>
     <div style="height: 100%;">
-        <div id="ta2" style="overflow:hidden">
+        <div id="ta2" style="overflow:hidden;">
+
+            <div id="myModal" class="modal hide">
+                <div class="modal-header">
+                    <h2>Lorem Ipsum</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
+
             <div class="row row-goods">
                 <div class="col-lg-4">
                     <div>
@@ -146,7 +154,7 @@
                         <span class="coast">
                             1859 грн
                         </span><br>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -355,7 +363,7 @@
                 </div>
             </div>
         </div>
-        <p><a class="btn btn-primary btn-lg read-next1" role="button" href="#">Больше товара</a></p>
+        <p><a class="btn btn-primary btn-lg read-next1" role="button" href="#">Больше товаров</a></p>
     </div>
 </div>
 
@@ -442,8 +450,10 @@
     <!--<p>Заказать / Задать вопрос</p>-->
     <!--<p>Мы перезвоним!</p>-->
         <div class="eTimer"></div>
-        <p>А это значит, что холода приблежаються!</p>
-        <p>Обустрой свой дом уютом к праздникам.</p>
+        <h4 class="an-text">
+            А это значит, что холода приблежаються!<br>
+            Обустрой свой дом уютом к праздникам.
+        </h4>
     </div>
 
 </div>
@@ -499,6 +509,19 @@
 </div>
 
 <p id="up"><a href="#top">Наверх</a></p>
+
+<button class="btn btn-info btn-lg" type="button" data-target="#Modal">Показать всплывающее окно</button>
+<div id="Modal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Заголовок окна</h4>
+            </div>
+            <div class="modal-body">Текст уведомления</div>
+            <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button></div>
+        </div>
+    </div>
+</div>
 
 <footer>
     <div id="ex8" class="map img-wave-block">
@@ -561,6 +584,10 @@
     </div>
 </footer>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://e-timer.ru/js/etimer.js"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+
 <script>
     $(document).ready(function () {
         $("#up").on("click", "a", function (event) {
@@ -613,7 +640,7 @@
                 H += h
             }
             t.height(H);
-            $(this).text(H == max ? 'Скрыть' : 'Больше товара');
+            $(this).text(H == max ? 'Скрыть' : 'Больше товаров');
             return false
         })
     });
@@ -629,10 +656,10 @@
             etShowSign: 1,
             etSep: ":",
             etFontFamily: "Arial",
-            etTextColor: "#a3a3a3",
+            etTextColor: "#636363",
             etPaddingTB: 20,
             etPaddingLR: 20,
-            etBackground: '#fff',
+            etBackground: 'none',
             etBorderSize: 0,
 //            etBorderRadius: 2,
 //            etBorderColor: "white",//переделать
@@ -640,7 +667,7 @@
             etLastUnit: 1,
             etNumberFontFamily: "Arial Black",//переделать
             etNumberSize: 70,
-            etNumberColor: "green",
+            etNumberColor: "#30ad64",
             etNumberPaddingTB: 0,
 //            etNumberPaddingLR: 2,
 //            etNumberBackground: "#11abb0",//переделать
@@ -649,6 +676,12 @@
 //            etNumberBorderColor: "white",
 //            etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
         });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#Modal").modal();
     });
 </script>
 

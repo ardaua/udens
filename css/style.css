@@ -5,9 +5,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    color: #868585;
+    color: #636363;
     background: #ffffff;
     font-weight: normal;
+    /*background-color: whitesmoke;*/
 }
 @font-face {
     font-family: Classic2;
@@ -118,7 +119,7 @@ header{
 #menu li
 { display: inline; }
 #menu a {
-    color: #868585;
+    color: #636363;
     padding: 5px 10px;
     text-decoration: none;
     display: inline-block;
@@ -180,9 +181,13 @@ header{
     -webkit-transition:all 1s;
     -o-transition:all 1s;
 }
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover, .btn-primary {
-    background-color: orange;
-    border-color: orange;
+.btn-primary:hover {
+    background-color: #d68c18;
+    border: none;
+}
+.btn-primary:active, .btn-primary:focus, .btn-primary {
+    background-color: #30ad64;
+    border: none;
 }
 .jumbotron p {
     margin: 20px 0 10px;
@@ -190,21 +195,23 @@ header{
     text-transform: uppercase;
 }
 .jumbotron span {
-    color: orange;
+    color: #30ad64;
     font-family: classic2;
-    font-size: 25px;
+    font-size: 30px;
 }
 .row-goods button {
     margin-top: 10px;
-    padding: 5px 25px;
+    padding: 6px 30px;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
     border: none;
-    background-color: #dff0d8;
-    /*background-color: rgba(217, 237, 247, 0.4);*/
+    background-color: rgb(255, 165, 0);
+    color: white;
+    font-weight: 700;
+    width: 60%;
 }
 .row-goods button:hover {
-    background-color: #fff0fc;
+    background-color: #30ad64;
 }
 .contact-block p {
     font-size: 14px;
@@ -257,8 +264,6 @@ header{
     background-color: rgba(173, 173, 173, 0.52);
 }
 
-
-
 /*Контейнер с фоном и текстом*/
 .main {
     width: 640px;
@@ -307,7 +312,7 @@ header{
     border: 1px solid #30ad64;
 }
 
-input {outline:none;}
+input, button {outline:none;}
 
 /*Стили текста, выводящегося в placeholder*/
 ::-webkit-input-placeholder {
@@ -357,4 +362,31 @@ input {outline:none;}
 .applicationButton:hover {
     background: #d68c18;
     /*    transition: .6s;*/
+}
+.an-text {
+    font-size: 30px;
+    font-weight: normal;
+    cursor: pointer;
+    text-shadow: 0 0 20px transparent;
+    color: transparent;
+    animation: shadows 6s infinite ease-in;
+}
+
+@keyframes shadows {
+    10% {
+        text-shadow: 0 0px 1px hsl(0, 100%, 40%);
+    }
+    60% {
+        text-shadow: 0 0px 1px rgba(61, 218, 255, 0.56);
+    }
+    90% {
+        text-shadow: 0 30px 40px transparent;
+    }
+}
+
+.btn-lg {
+    border-radius: 40px;
+}
+.panel-info {
+    color: green;
 }
