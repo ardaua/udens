@@ -133,6 +133,29 @@
     <div style="height: 100%;">
         <div id="ta2" style="overflow:hidden;">
 
+            <div id="myModal" class="modal  fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="close exit-order" type="button" data-dismiss="modal">×</button>
+                            <h2 class="modal-title">Очень рады, что Вы хотите оформить заказ!</h2>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-decoretion">
+                                <form id="application" action=" application.php" method="POST" name=" application ">
+                                    <input name="name" id="zayavkaName" maxlength="20" placeholder="Введите ваше имя" required />
+                                    <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
+                                    <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
+                                    <button class="applicationButton" type="submit" form="application">Заказать</button>
+                                </form>
+                            </div>
+                        </div>
+                        <!--<div class="modal-footer">-->
+                        <!--<button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
 
             <div class="row row-goods">
                 <div class="col-lg-4">
@@ -147,31 +170,6 @@
                             1859 грн
                         </span><br>
                         <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
-
-                        <div id="myModal" class="modal  fade">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <button class="close exit-order" type="button" data-dismiss="modal">×</button>
-                                        <h2 class="modal-title">Очень рады, что Вы хотите оформить заказ!</h2>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="form-decoretion">
-                                            <form id="application" action=" application.php" method="POST" name=" application ">
-                                                <input name="name" id="zayavkaName" maxlength="20" placeholder="Введите ваше имя" required />
-                                                <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
-                                                <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
-                                                <button class="applicationButton" type="submit" form="application">Заказать</button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                    <!--<div class="modal-footer">-->
-                                        <!--<button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>-->
-                                    <!--</div>-->
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -185,7 +183,7 @@
                         3104 грн
                     </span>
                     <div>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -199,7 +197,7 @@
                         3104 грн
                     </span>
                     <div>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
             </div>
@@ -212,10 +210,10 @@
                         Гранатовый браслет
                     </p>
                     <span class="coast">
-                        1859
+                        1859 грн
                     </span>
                     <div>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -226,10 +224,10 @@
                         Гранатовый браслет
                     </p>
                     <span class="coast">
-                        3104
+                        3104 грн
                     </span>
                     <div>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -240,54 +238,10 @@
                         Гранатовый браслет
                     </p>
                     <span class="coast">
-                        3104
+                        3104 грн
                     </span>
                     <div>
-                        <button class="order">заказать</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row row-goods">
-                <div class="col-lg-4">
-                    <div>
-                        <img src="img/good1.jpg">
-                    </div>
-                    <p class="name-good">
-                        Гранатовый браслет
-                    </p>
-                    <span class="coast">
-                        1859
-                    </span>
-                    <div>
-                        <button class="order">заказать</button>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div>
-                        <img src="img/good1.jpg">
-                    </div>
-                    <p class="name-good">
-                        Гранатовый браслет
-                    </p>
-                    <span class="coast">
-                        3104
-                    </span>
-                    <div>
-                        <button class="order">заказать</button>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div>
-                        <img src="img/good1.jpg">
-                    </div>
-                    <p class="name-good">
-                        Гранатовый браслет
-                    </p>
-                    <span class="coast">
-                        3104
-                    </span>
-                    <div>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
             </div>
@@ -300,10 +254,10 @@
                         Гранатовый браслет
                     </p>
                     <span class="coast">
-                        1859
+                        1859 грн
                     </span>
                     <div>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -314,10 +268,10 @@
                         Гранатовый браслет
                     </p>
                     <span class="coast">
-                        3104
+                        3104 грн
                     </span>
                     <div>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -328,10 +282,10 @@
                         Гранатовый браслет
                     </p>
                     <span class="coast">
-                        3104
+                        3104 грн
                     </span>
                     <div>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
             </div>
@@ -344,10 +298,10 @@
                         Гранатовый браслет
                     </p>
                     <span class="coast">
-                        1859
+                        1859 грн
                     </span>
                     <div>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -358,10 +312,10 @@
                         Гранатовый браслет
                     </p>
                     <span class="coast">
-                        3104
+                        3104 грн
                     </span>
                     <div>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -372,10 +326,54 @@
                         Гранатовый браслет
                     </p>
                     <span class="coast">
-                        3104
+                        3104 грн
                     </span>
                     <div>
-                        <button class="order">заказать</button>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-goods">
+                <div class="col-lg-4">
+                    <div>
+                        <img src="img/good1.jpg">
+                    </div>
+                    <p class="name-good">
+                        Гранатовый браслет
+                    </p>
+                    <span class="coast">
+                        1859 грн
+                    </span>
+                    <div>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <img src="img/good1.jpg">
+                    </div>
+                    <p class="name-good">
+                        Гранатовый браслет
+                    </p>
+                    <span class="coast">
+                        3104 грн
+                    </span>
+                    <div>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <img src="img/good1.jpg">
+                    </div>
+                    <p class="name-good">
+                        Гранатовый браслет
+                    </p>
+                    <span class="coast">
+                        3104 грн
+                    </span>
+                    <div>
+                        <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
                     </div>
                 </div>
             </div>
@@ -383,6 +381,8 @@
         <p><a class="btn btn-primary btn-lg read-next1" role="button" href="#">Больше товаров</a></p>
     </div>
 </div>
+
+<!--<hr class="hr-goods">-->
 
 <div id="ex3" class="info-block cont">
     <h2 class="h2-pad">Такой технологии Вы еще не встречали!</h2>

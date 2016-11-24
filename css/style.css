@@ -393,3 +393,14 @@ input, button {outline:none;}
 .exit-order {
     width: 20px;
 }
+/*.hr-goods {*/
+    /*width: 60%;*/
+    /*margin: 3% auto 4% auto;*/
+    /*border-top: 1px solid rgba(255, 165, 0, 0.48);*/
+    /*width: 25%;*/
+    /*margin: 0% auto -5% auto;*/
+    /*border-top: 1px solid rgba(255, 165, 0, 0.48);*/
+/*}*/
+.read-next1 {
+    margin-top: 30px;
+}
