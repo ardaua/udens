@@ -133,14 +133,6 @@
     <div style="height: 100%;">
         <div id="ta2" style="overflow:hidden;">
 
-            <div id="myModal" class="modal hide">
-                <div class="modal-header">
-                    <h2>Lorem Ipsum</h2>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet</p>
-                </div>
-            </div>
 
             <div class="row row-goods">
                 <div class="col-lg-4">
@@ -155,6 +147,31 @@
                             1859 грн
                         </span><br>
                         <button class="order" data-toggle="modal" data-target="#myModal">заказать</button>
+
+                        <div id="myModal" class="modal  fade">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button class="close exit-order" type="button" data-dismiss="modal">×</button>
+                                        <h2 class="modal-title">Очень рады, что Вы хотите оформить заказ!</h2>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-decoretion">
+                                            <form id="application" action=" application.php" method="POST" name=" application ">
+                                                <input name="name" id="zayavkaName" maxlength="20" placeholder="Введите ваше имя" required />
+                                                <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
+                                                <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
+                                                <button class="applicationButton" type="submit" form="application">Заказать</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <!--<div class="modal-footer">-->
+                                        <!--<button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>-->
+                                    <!--</div>-->
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -510,19 +527,6 @@
 
 <p id="up"><a href="#top">Наверх</a></p>
 
-<button class="btn btn-info btn-lg" type="button" data-target="#Modal">Показать всплывающее окно</button>
-<div id="Modal" class="modal fade">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button>
-                <h4 class="modal-title">Заголовок окна</h4>
-            </div>
-            <div class="modal-body">Текст уведомления</div>
-            <div class="modal-footer"><button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button></div>
-        </div>
-    </div>
-</div>
-
 <footer>
     <div id="ex8" class="map img-wave-block">
         <img src="img/map-adress.png" alt="map">
@@ -680,9 +684,7 @@
 </script>
 
 <script type="text/javascript">
-    $(document).ready(function(){
-        $("#Modal").modal();
-    });
+    $('#myModal').on('hidden.bs.modal', function (event) {    });
 </script>
 
 </body>

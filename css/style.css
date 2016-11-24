@@ -199,7 +199,7 @@ header{
     font-family: classic2;
     font-size: 30px;
 }
-.row-goods button {
+.row-goods .order {
     margin-top: 10px;
     padding: 6px 30px;
     text-transform: uppercase;
@@ -210,7 +210,7 @@ header{
     font-weight: 700;
     width: 60%;
 }
-.row-goods button:hover {
+.row-goods .order:hover {
     background-color: #30ad64;
 }
 .contact-block p {
@@ -308,7 +308,7 @@ header{
 }
 
 /*Стили полей при клике по ним*/
-#applicationName:focus, #zayavkaName:focus,#applicationEmail:focus, #applicationTelephone:focus {
+#applicationName:focus, #zayavkaName:focus, #applicationEmail:focus, #applicationTelephone:focus {
     border: 1px solid #30ad64;
 }
 
@@ -389,4 +389,7 @@ input, button {outline:none;}
 }
 .panel-info {
     color: green;
+}
+.exit-order {
+    width: 20px;
 }
