@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <!--<meta http-equiv="Refresh" content="4; url=http://teplo-dnepr.com.ua">-->
     <!-- Bootstrap -->
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="img/favicon.ico">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
@@ -490,44 +490,55 @@
 
 <div id="ex7" class="reviews-block cont">
     <h2 class="h2-pad">Отзывы</h2>
-    <div>
-        <div class="order-user">
-            <img src="img/order-user.svg">
-        </div>
-        <br>
-        <span class="user-name">Сёрджи Пончен</span><br>
-        <i>Замечательный дизайн. Сам нарисовал, сделали за неделю, весит как картина, еще и греет) Плюс ко всему
-            экономия электроенергии за счет того что нагревается до нужной температуры и отключается, включиться только
-            тогда когда комната начнет остывать. Не греет воздух, греет предметы. Очень доволен. Это продукт 21
-            века!</i>
-    </div>
-    <div>
-        <div class="order-user">
-            <img src="img/order-user.svg">
-        </div>
-        <br>
-        <span class="user-name">Сёрджи Пончен</span><br>
-        <i>Замечательный дизайн. Сам нарисовал, сделали за неделю, весит как картина, еще и греет) Плюс ко всему
-            экономия электроенергии за счет того что нагревается до нужной температуры и отключается, включиться только
-            тогда когда комната начнет остывать. Не греет воздух, греет предметы. Очень доволен. Это продукт 21
-            века!</i>
-    </div>
-    <div>
-        <div class="order-user">
-            <img src="img/order-user.svg">
-        </div>
-        <br>
-        <span class="user-name">Сёрджи Пончен</span><br>
-        <i>Замечательный дизайн. Сам нарисовал, сделали за неделю, весит как картина, еще и греет) Плюс ко всему
-            экономия электроенергии за счет того что нагревается до нужной температуры и отключается, включиться только
-            тогда когда комната начнет остывать. Не греет воздух, греет предметы. Очень доволен. Это продукт 21
-            века!</i>
+    <div class="slides">
+        <ul> <!-- Слайды -->
+            <li class="order-user"><img src="img/order-user.svg">
+                <div>
+                    <span class="user-name">Сёрджи Пончен</span><br>
+                    <i>Замечательный дизайн. Сам нарисовал, сделали за неделю, весит как картина, еще и греет) Плюс ко всему
+                        экономия электроенергии за счет того что нагревается до нужной температуры и отключается, включиться только
+                        тогда когда комната начнет остывать. Не греет воздух, греет предметы. Очень доволен. Это продукт 21
+                        века!</i>
+                </div>
+            </li>
+            <li class="order-user"><img src="img/order-user.svg">
+                <div>
+                    <span class="user-name">Сёрджи Пончен</span><br>
+                    <i>Замечательный дизайн. Сам нарисовал, сделали за неделю, весит как картина, еще и греет) Плюс ко всему
+                        экономия электроенергии за счет того что нагревается до нужной температуры и отключается, включиться только
+                        тогда когда комната начнет остывать. Не греет воздух, греет предметы. Очень доволен. Это продукт 21
+                        века!</i>
+                </div>
+            </li>
+            <li class="order-user"><img src="img/order-user.svg">
+                <div>
+                    <span class="user-name">Сёрджи Пончен</span><br>
+                    <i>Замечательный дизайн. Сам нарисовал, сделали за неделю, весит как картина, еще и греет) Плюс ко всему
+                        экономия электроенергии за счет того что нагревается до нужной температуры и отключается, включиться только
+                        тогда когда комната начнет остывать. Не греет воздух, греет предметы. Очень доволен. Это продукт 21
+                        века!</i>
+                </div>
+            </li>
+            <li class="order-user"><img src="img/order-user.svg">
+                <div>
+                    <p class="user-name">Сёрджи Пончен</p><br>
+                    <div>
+                        <i>Замечательный дизайн. Сам нарисовал, сделали за неделю, весит как картина, еще и греет) Плюс ко всему
+                            экономия электроенергии за счет того что нагревается до нужной температуры и отключается, включиться только
+                            тогда когда комната начнет остывать. Не греет воздух, греет предметы. Очень доволен. Это продукт 21
+                            века!</i>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </div>
 </div>
 
-<p id="up"><a href="#top">Наверх</a></p>
+<!--<p id="up"><a href="#top">Наверх</a></p>-->
 
 <footer>
+    <div id="scrollup"><img alt="Прокрутить вверх" src="img/up-arrow.svg"></div>
+
     <div id="ex8" class="map img-wave-block">
         <img src="img/map-adress.png" alt="map">
     </div>
@@ -685,6 +696,25 @@
 
 <script type="text/javascript">
     $('#myModal').on('hidden.bs.modal', function (event) {    });
+</script>
+
+<script type="text/javascript">
+    jQuery( document ).ready(function() {
+        jQuery('#scrollup img').mouseover( function(){
+        jQuery( this ).animate({opacity: 0.65},100);}).mouseout( function(){
+            jQuery( this ).animate({opacity: 1},100);}).click( function(){
+                window.scroll(0 , 0);
+                return false;
+                });
+
+            jQuery(window).scroll(function(){
+                if ( jQuery(document).scrollTop() > 0 ) {
+                    jQuery('#scrollup').fadeIn('fast');
+                } else {
+                    jQuery('#scrollup').fadeOut('fast');
+                }
+        });
+    });
 </script>
 
 </body>
