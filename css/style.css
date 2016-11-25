@@ -247,22 +247,6 @@ header{
     padding: 0 10% 0 15%;
     text-align: center;
 }
-/*.form-decoretion {*/
-    /*background-color: rgb(128, 0, 0);*/
-    /*padding: 70px 0;*/
-    /*width: 300px;*/
-    /*margin: auto;*/
-    /*border-radius: 5px;*/
-    /*font-size: 20px;*/
-    /*font-family: inherit;*/
-    /*font-weight: 100;*/
-    /*text-transform: uppercase;*/
-    /*line-height: 2;*/
-/*}*/
-
-.test {
-    background-color: rgba(173, 173, 173, 0.52);
-}
 
 /*Контейнер с фоном и текстом*/
 .main {
@@ -317,32 +301,19 @@ input, button {outline:none;}
 /*Стили текста, выводящегося в placeholder*/
 ::-webkit-input-placeholder {
     color: #868585;
-    /*font-family: 'PT Sans', sans-serif;*/
-    /*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*/
 }
 
 ::-moz-placeholder  {
     color: #868585;
-    /*font-family: 'PT Sans', sans-serif;*/
-    /*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*/
 }  /* Firefox 19+ */
 
 :-moz-placeholder {
     color: #868585;
-    /*font-family: 'PT Sans', sans-serif;*/
-    /*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*/
 }  /* Firefox 18- */
 
 :-ms-input-placeholder {
     color: #868585;
-    /*font-family: 'PT Sans', sans-serif;*/
-    /*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*/
 }
-
-/*::placeholder {*/
-    /*color: #868585;*/
-    /*!*text-shadow: 0 1px 1px rgba(0, 0, 0, .3);*!*/
-/*}*/
 
 /*Стили для кнопки*/
 .applicationButton {
@@ -410,9 +381,6 @@ input, button {outline:none;}
     position: fixed; /* фиксированная позиция */
     /*opacity: 0; !* прозрачность *!*/
     padding: 15px 10px 10px; /* отступы */
-    /*border-radius: 5px; !* скругление углов *!*/
-    /*-webkit-border-radius: 5px;*/
-    /*-moz-border-radius: 5px;*/
     left: 25px; /* отступ слева */
     bottom: 10px; /* отступ снизу */
     display: none; /* спрятать блок */
@@ -560,8 +528,6 @@ input, button {outline:none;}
 
 .slides ul li div {
     background-color: rgba(108, 108, 108, 0.49);
-    /*border-radius:10px 10px 10px 10px;*/
-    /*box-shadow:0 0 5px #FFFFFF inset;*/
     color:black;
     font-size:18px;
     left:10%;
