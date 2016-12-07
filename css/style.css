@@ -39,7 +39,8 @@ img{
     height: auto;
 }
 header{
-    margin: 10px 0 80px;
+    /*margin: 10px 0 80px;*/
+    margin: 2% 0 2%;
 }
 .cont {
     padding: 0 20% 0 20%;
@@ -66,6 +67,9 @@ header{
 }
 .slider {
     margin: 50px 0;
+}
+.slider img {
+    width: 100%;
 }
 #desc {
      float: left;
@@ -275,7 +279,8 @@ header{
 
 /* Стили формы */
 .application {
-    width: 350px;
+    /*width: 350px;*/
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -368,13 +373,47 @@ input, button {outline:none;}
 .read-next1 {
     margin-top: 30px;
 }
+@media (max-width: 767px) {
+    .read-next,.read-next1 {
+        width: 100%;
+        font-size: 11px;
+    }
+    .back-to-top {
+        padding: 1px 6px;
+    }
+    .cont {
+        padding: 0;
+        text-align: center;
+    }
+    .application {
+        width: 100%;
+    }
+    h1 {
+        font-size: 2.2em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    #menu {
+        line-height: 5px;
+        padding: 0;
+    }
+    .slider {
+        margin: 0;
+    }
+    body {
+        font-size: 0.7em;
+    }
+    .applicationName, .applicationName, .applicationEmail, .applicationTelephone {
+        font-size: 3em;
+    }
+}
 .back-to-top {
     cursor: pointer;
     position: fixed;
     bottom: 20px;
     right: 20px;
     display:none;
-    /*padding: 6px 11px;*/
 }
 
 /* ------------------------Слайдер-------------------- */
