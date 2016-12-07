@@ -9,7 +9,7 @@
 
 <?php 
 
-$sendto   = "smart-landing@yandex.ru"; // почта, на которую будет приходить письмо
+$sendto   = "ardaua@yandex.ru"; // почта, на которую будет приходить письмо officeppu@gmail.com
 $username = $_POST['name'];   // сохраняем в переменную данные полученные из поля c именем
 $usertel = $_POST['telephone']; // сохраняем в переменную данные полученные из поля c телефонным номером
 $usermail = $_POST['email']; // сохраняем в переменную данные полученные из поля c адресом электронной почты
@@ -31,9 +31,9 @@ $msg .= "</body></html>";
 
 // отправка сообщения
 if(@mail($sendto, $subject, $msg, $headers)) {
-	echo "<center><img src='images/spasibo.png'></center>";
+	echo "<center><img src='img/spasibo.png'></center>";
 } else {
-	echo "<center><img src='images/ne-otpravleno.png'></center>";
+	echo "<center><img src='img/ne-otpravleno.png'></center>";
 }
 
 ?>
