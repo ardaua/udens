@@ -274,13 +274,13 @@ header{
 }
 
 /* Стили формы */
-#application {
+.application {
     width: 350px;
     margin: 0 auto;
 }
 
 /*Стили полей для ввода*/
-#applicationName, #zayavkaName, #applicationEmail, #applicationTelephone {
+.applicationName, .applicationName, .applicationEmail, .applicationTelephone {
     width: 100%;
     height: 73px;
     background: none;
@@ -293,7 +293,7 @@ header{
 }
 
 /*Стили полей при клике по ним*/
-#applicationName:focus, #zayavkaName:focus, #applicationEmail:focus, #applicationTelephone:focus {
+.applicationName:focus, .applicationName:focus, .applicationEmail:focus, .applicationTelephone:focus {
     border: 1px solid #30ad64;
 }
 

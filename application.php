@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Создание формы обратной связи</title>
-<meta http-equiv="Refresh" content="4; URL=http://index.html/"> 
+<meta http-equiv="Refresh" content="4; URL=http://teplo-dnepr.com.ua">
 </head>
 <body>
 

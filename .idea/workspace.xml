@@ -2,46 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38a119b1-d7ba-41aa-b741-f29a6fbe2826" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/ne-otprevleno.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/spasibo.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/css/reset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/img/avatar-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/img/avatar-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/img/avatar-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/img/avatar-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/img/avatar-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/img/avatar-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/js/GPL-2.0-flexslider.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/js/MIT License - Masonry.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/js/jquery-2.1.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/js/jquery.flexslider-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/js/masonry.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/js/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/partials/_layout.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/partials/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/partials/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/readme.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client-testimonials-carousel/scss/style.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/home1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon grey/give-money.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon grey/herbal-spa-treatment-leaves (1).svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon grey/hot-coffee-rounded-cup-on-a-plate-from-side-view (1).svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon grey/policeman (1).svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon grey/quill-drawing-a-line (1).svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/icon grey/right-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/order1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/up-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/код таймера.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forma/application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forma/css/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forma/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forma/images/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forma/images/ne-otprevleno.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forma/images/spasibo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/forma/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application.php" afterPath="$PROJECT_DIR$/application.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
     </list>
@@ -67,8 +36,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="215" column="24" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="24" />
+            <state relative-caret-position="705">
+              <caret line="316" column="1" selection-start-line="316" selection-start-column="1" selection-end-line="316" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -77,8 +46,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="345" column="0" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
+            <state relative-caret-position="320">
+              <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -122,8 +91,8 @@
       <file leaf-file-name="application.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="115">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -154,9 +123,9 @@
         <option value="$PROJECT_DIR$/js/home.html" />
         <option value="$PROJECT_DIR$/home1.html" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/application.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/application.php" />
       </list>
     </option>
   </component>
@@ -212,6 +181,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="udens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oplao-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="udens" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,7 +317,7 @@
       <workItem from="1479894164906" duration="10281000" />
       <workItem from="1479985562438" duration="17587000" />
       <workItem from="1480063983449" duration="2720000" />
-      <workItem from="1481103723318" duration="6954000" />
+      <workItem from="1481103723318" duration="8060000" />
     </task>
     <task id="LOCAL-00001" summary="-first com">
       <created>1475064149184</created>
@@ -539,17 +522,24 @@
       <option name="project" value="LOCAL" />
       <updated>1480019007533</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="исправление багов (футер блоки при мобильной версии, кнопка up, растояние между товарами)">
+      <created>1481111484572</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1481111484573</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119793000" />
+    <option name="totallyTimeSpent" value="120899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09151786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09151786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32764506" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -614,7 +604,8 @@
     <MESSAGE value="отформатированое модальное окно" />
     <MESSAGE value="модальное окно на всех кнопках" />
     <MESSAGE value="слайдер для отзывов" />
-    <option name="LAST_COMMIT_MESSAGE" value="слайдер для отзывов" />
+    <MESSAGE value="исправление багов (футер блоки при мобильной версии, кнопка up, растояние между товарами)" />
+    <option name="LAST_COMMIT_MESSAGE" value="исправление багов (футер блоки при мобильной версии, кнопка up, растояние между товарами)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1453,14 +1444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="215" column="24" selection-start-line="215" selection-start-column="24" selection-end-line="215" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forma/images/spasibo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1473,16 +1456,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="115">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="316" column="1" selection-start-line="316" selection-start-column="1" selection-end-line="316" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="345" column="0" selection-start-line="345" selection-start-column="0" selection-end-line="345" selection-end-column="0" />
+        <state relative-caret-position="320">
+          <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />

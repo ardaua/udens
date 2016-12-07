@@ -7,7 +7,6 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <!--<meta http-equiv="Refresh" content="4; url=http://teplo-dnepr.com.ua">-->
 
     <link rel="icon" href="img/favicon.ico">
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -142,11 +141,11 @@
                         </div>
                         <div class="modal-body">
                             <div class="form-decoretion">
-                                <form id="application" action=" application.php" method="POST" name=" application ">
-                                    <input name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
-                                    <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
-                                    <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
-                                    <button class="applicationButton" type="submit" form="application">Заказать</button>
+                                <form class="application" action=" application.php" method="POST" name=" application ">
+                                    <input name="name" class="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
+                                    <input name="email" type="email" class="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
+                                    <input name="telephone" type="Tel" class="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
+                                    <button class="applicationButton" type="submit">Заказать</button>
                                 </form>
                             </div>
                         </div>
@@ -400,11 +399,11 @@
     <h2 class="h2-pad">Как заказать?</h2>
     <div class="col-md-6">
         <div class="form-decoretion">
-            <form id="application" action=" application.php" method="POST" name=" application ">
-                <input name="name" id="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
-                <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
-                <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
-                <button class="applicationButton" type="submit" form="application">Заказать</button>
+            <form class="application" action=" application.php" method="POST" name=" application ">
+                <input name="name" class="applicationName" maxlength="20" placeholder="Введите ваше имя" required />
+                <input name="email" type="email" class="applicationEmail" maxlength="20" placeholder="Введите ваш E-mail" required />
+                <input name="telephone" type="Tel" class="applicationTelephone" maxlength="20" placeholder="Введите ваш телефон" required/>
+                <button class="applicationButton" type="submit">Заказать</button>
             </form>
         </div>
     </div>
@@ -620,20 +619,11 @@
             etPaddingLR: 20,
             etBackground: 'none',
             etBorderSize: 0,
-//            etBorderRadius: 2,
-//            etBorderColor: "white",//переделать
-//            etShadow: " 0px 0px 10px 0px #333333",
             etLastUnit: 1,
             etNumberFontFamily: "Arial Black",//переделать
             etNumberSize: 70,
             etNumberColor: "#30ad64",
             etNumberPaddingTB: 0,
-//            etNumberPaddingLR: 2,
-//            etNumberBackground: "#11abb0",//переделать
-//            etNumberBorderSize: 0,
-//            etNumberBorderRadius: 5,
-//            etNumberBorderColor: "white",
-//            etNumberShadow: "inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5)"
         });
     });
 </script>
